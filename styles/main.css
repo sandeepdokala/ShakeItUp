@@ -1,0 +1,277 @@
+/* ############################################################## */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* line-height: 3; */
+    background-color: #262626;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+}
+
+/* ############################################################## */
+
+/* ########################  Home Page  ######################### */
+
+.background {
+    background: url(./../images/DSC03168.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* opacity: 50%; */
+}
+
+div.homepage {
+    /* background-image: url(./../images/waffee_and_co_processed/DSC03168.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    height: 100vh;
+    display: block;
+    background: rgba(0,0,0,0.5);
+    /* opacity: 50%; */
+    
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffff0000;
+    color: white;
+    line-height: 3;
+    margin: 0;
+    width: 100%;
+}
+
+div.navbar ul li {
+    float: left;
+}
+
+div.navbar ul {
+    list-style: none;
+}
+
+div.navbar ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+div.navbar ul li a:hover {
+    background-color: #262626;
+    color: #fff;
+}
+
+ul li img {
+    height: 100px;
+}
+
+div.rightSideMenu {
+    float: right;
+}
+
+div.rightSideMenu ul li {
+    margin-right: 30px;
+}
+
+div.homesection {
+    width: 100%;
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 60px;
+    color: #ffffff;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 1 30vw;
+    
+}
+div.homesection h1 {
+    text-shadow: 0px 0px 30px rgba(150, 150, 150, 1);
+}
+
+/* ############################################################## */
+
+/* ##########################  About Us  ######################## */
+
+div.aboutus {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background: #e6e6e6;
+    text-align: center;
+}
+
+div.aboutus h1 {
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+div.aboutus p {
+    padding-top: 10px;
+}
+
+div.menuheading {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: #262626;
+    color: #fff;
+}
+
+div.menuheading h1 {
+    font-family: 'Staatliches', cursive;
+    
+}
+
+div.menuimages {
+    text-align: center;
+    background: #262626;
+    color: #fff;
+    display: flex;
+}
+
+div.menu1 {
+    width: 50%;
+}
+
+div.menu1 img {
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+}
+
+div.menu2 img {
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+}
+
+div.menu2 {
+    width: 50%;
+}
+
+div.menuimages {
+    padding-bottom: 50px;
+}
+
+div.gallery, div.contactus {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: #e6e6e6;
+}
+
+div.galleryheading {
+    padding-bottom: 50px;
+}
+
+div.galleryimages1, div.galleryimages2 {
+    display: flex;
+}
+
+div.image1 {
+    width: 33.33%;
+}
+
+div.galleryimages1 div.image1 img, div.galleryimages2 div.image1 img {
+    width: 75%;
+    height: auto;
+}
+
+div.galleryimages1 div.image1 img:hover, div.galleryimages2 div.image1 img:hover {
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+
+div.galleryimages2 {
+    padding-top: 50px;
+}
+
+div.galleryimages1 h2, div.galleryimages2 h2 {
+    padding-top: 25px;
+}
+
+div.galleryimages2 h2 {
+    padding-bottom: 50px;
+}
+
+div.viewmore {
+    text-align: center;
+}
+
+div.viewmore a {
+    text-decoration: none;
+    color: black;
+    border: 1px #ccc solid;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 5px 35px 5px 35px;
+    line-height: 42px;
+}
+
+div.viewmore a:hover {
+    background: rgb(212, 210, 210);
+}
+
+div.findastorenearyou {
+    text-align: center;
+    background: #262626;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+div.findastorenearyou h1 {
+    margin-bottom: 50px;
+}
+
+div.addresses {
+    display: flex;
+}
+
+div.address1 {
+    width: 33.33%;
+}
+
+div.address1 h3 {
+    margin-bottom: 30px;
+}
+
+div.address1 img {
+    height: 100px;
+}
+
+div.address1 address {
+    line-height: 25px;
+}
+
+div.contact-us {
+    display: flex;
+    margin-top: 65px;
+}
+
+div.contact-address, div.contact-email {
+    width: 50%;
+}
+
+div.contact-address p, div.contact-email p {
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
